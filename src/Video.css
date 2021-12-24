@@ -1,0 +1,12 @@
+.videoCard{
+      position: relative;
+      background-color: white;
+      height: 100%;
+      width: 100%;
+      scroll-snap-align: start;
+}
+.videoDisplay{
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+}

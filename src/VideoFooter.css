@@ -1,0 +1,43 @@
+.videoFooter{
+    color: white;
+    position: relative;
+    bottom: 133px;
+    display: flex;
+    margin-left: 21px;
+    font-size: 1rem;
+}
+.footerText{
+    flex: 1;
+}
+.footer_spinner{
+    height: 44px;
+    filter: invert(1);
+    animation: spinTheWheel infinite 5s;
+    bottom: 16px;
+    right: 20px;
+    position:absolute;
+}
+.footerIcon{
+    position: absolute;
+}
+.footerText h3{
+    padding-bottom:13px;
+
+}
+.footerTicker{
+    padding-top: 15px;
+}
+.ticker{
+    padding-top: 20px;
+    margin-left: 30px;
+    /* height: fit-content; */
+    width: 60%;
+}
+@keyframes spinTheWheel {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg)
+    }
+}
