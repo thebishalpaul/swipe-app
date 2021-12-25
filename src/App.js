@@ -14,7 +14,9 @@ function App() {
   }, []);
   return (
     <div className="App">
-      <h3 className='heading'>SWIPE APP</h3>
+      <div className='heading'>
+      <h3>SWIPE APP</h3>
+      </div>
        <div className="app_videos">
          {videos.map(
            ({vidUrl,userName,description,song,likeCount,commentCount})=>(

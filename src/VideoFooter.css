@@ -43,7 +43,7 @@
 }
 @media screen and (max-width: 600px) {
 .footer_spinner{
-   height: 63px;
+   height: 55px;
    bottom: 27px;
    right: 16px;
 }

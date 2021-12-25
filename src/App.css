@@ -21,7 +21,7 @@ body{
 .heading{       /*swipe app */
   color: white;
   position: absolute;
-  top: 5px;
+  top: 12px;
 }
 /* Hide scrollbar for Chrome, Safari and Opera */
 .app_videos::-webkit-scrollbar {
@@ -35,9 +35,12 @@ body{
 }
 @media screen and (max-width: 600px) {
   .app_videos{
-    height: 574px;
+    height: 560px;
     overflow: scroll;
     width: 84%;
     max-width: 443px;
+  }
+  .heading{
+    top: 1rem;
   }
 }
