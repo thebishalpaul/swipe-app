@@ -33,4 +33,11 @@ body{
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
-
+@media screen and (max-width: 600px) {
+  .app_videos{
+    height: 709px;
+    overflow: scroll;
+    width: 82%;
+    max-width: 443px;
+  }
+}

@@ -5,7 +5,6 @@ import CommentIcon from '@mui/icons-material/Comment';
 import ShareIcon from '@mui/icons-material/Share';
 
 import "./VideoSidebar.css"
-import "./VideoSidebarResponsive.css"
 
 function VideoSidebar({likeCount,commentCount}) {
     const [like,setLike]=useState(false);

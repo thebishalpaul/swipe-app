@@ -8,3 +8,19 @@
     padding: 14px;
     text-align: center;
 }
+
+@media screen and (max-width: 600px) {
+    .sidebar{
+       top: 34%;
+    }
+    .css-tzssek-MuiSvgIcon-root {
+        transform: scale(1.5);
+      }
+      
+    .sidebarButtons {
+        padding: 29px;
+      }
+      .sidebarButtons p{
+          font-size: 21px;
+      }
+}
