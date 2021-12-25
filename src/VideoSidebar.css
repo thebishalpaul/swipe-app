@@ -11,14 +11,14 @@
 
 @media screen and (max-width: 600px) {
     .sidebar{
-       top: 34%;
+       top: 25%;
     }
     .css-tzssek-MuiSvgIcon-root {
-        transform: scale(1.5);
+        transform: scale(1);
       }
       
     .sidebarButtons {
-        padding: 29px;
+        padding: 22px;
       }
       .sidebarButtons p{
           font-size: 21px;

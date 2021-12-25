@@ -43,6 +43,12 @@
 }
 @media screen and (max-width: 600px) {
 .footer_spinner{
-   height: 74px;
+   height: 63px;
+   bottom: 27px;
+   right: 16px;
+}
+
+    .footerText{
+        font-size:20px;
     }
 }
